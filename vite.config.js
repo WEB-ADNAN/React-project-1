@@ -13,5 +13,8 @@ export default defineConfig({
     alias:{
       '@images':path.resolve(__dirname, 'src/assets/images'),
     }
+  },
+    optimizeDeps: {
+    include: ['slick-carousel']
   }
 })
